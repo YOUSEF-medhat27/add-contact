@@ -18,55 +18,57 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navId">
     <!-- ***************start nav************* -->
-    <nav class="navbar navbar-expand-lg bg-white mb-5">
-      <div class="container-fluid mx-5 d-flex align-items-center">
-        <div
-          class="mainheading py-2 d-flex justify-content-center align-items-center"
-        >
-          <div class="heading-icon me-3">
-            <i class="fa-solid fa-address-book book"></i>
-          </div>
-          <div class="heading-text">
-            <h4 class="fs-4 fw-bold mb-0">
-              Contact<span style="color: #7f22fe">Hub</span>
-            </h4>
-            <span class="specifyfont fw-medium">Smart Contact Manager</span>
-          </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul
-            class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex justify-content-lg-around align-items-lg-center"
-          >
-            <li class="nav-item">
-              <button onclick="openModal()"  class="btn bg-button rounded-3>
-                <a href="">
-                  <i class="fa-solid fa-plus text-white fw-bold"></i>
-                  <span class="text-white fw-bold">Add Contact</span>
-                </a>
-              </button>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fa-solid fa-bell iconnav m-1"></i>
-                <span class="d-lg-none">Recent</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fa-solid fa-gear iconnav m-1"></i>
-                <span class="d-lg-none">Settings</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img class="imgnav" src="./img/avatar-2.jpg" alt="" />
-                <span class="d-lg-none">Profile</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+   <nav class="navbar bg-white mb-5">
+  <div class="container-fluid mx-5 d-flex align-items-center">
+
+    <div class="mainheading py-2 d-flex align-items-center">
+      <div class="heading-icon me-3">
+        <i class="fa-solid fa-address-book book"></i>
       </div>
-    </nav>
+
+      <div class="heading-text">
+        <h4 class="fs-4 fw-bold mb-0">
+          Contact<span style="color:#7f22fe">Hub</span>
+        </h4>
+        <span class="specifyfont fw-medium">Smart Contact Manager</span>
+      </div>
+    </div>
+
+    <div class="ms-auto d-flex align-items-center">
+
+      <ul class="navbar-nav d-flex flex-row align-items-center">
+
+        <li class="nav-item me-3">
+          <button onclick="openModal()" class="btn bg-button rounded-3">
+            <i class="fa-solid fa-plus text-white"></i>
+            <span class="text-white fw-bold">Add Contact</span>
+          </button>
+        </li>
+
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-bell iconnav"></i>
+          </a>
+        </li>
+
+        <li class="nav-item me-3">
+          <a class="nav-link" href="#">
+            <i class="fa-solid fa-gear iconnav"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <img class="imgnav" src="./img/avatar-2.jpg" alt="">
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+</nav>
     <!-- ***************end nav************* -->
     <!-- ***************start main************* -->
     <section id="main" class="my-5">
